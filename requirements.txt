@@ -5,4 +5,5 @@ mongoengine
 bcrypt
 pyjwt
 dotenv
+pymongo[srv]==3.12
 gunicorn

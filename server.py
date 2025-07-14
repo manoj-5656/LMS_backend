@@ -9,6 +9,7 @@ app = Flask(__name__)
 CORS(app, supports_credentials=True, origins="https://lms-jawn.vercel.app")
 connect_db()
 
+
 @app.route('/', methods=['GET'])
 def home():
     return "this is from deployed backend"
